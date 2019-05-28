@@ -1,0 +1,24 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "TypeChain",
+  "main": "index.js",
+  "scripts": {
+    "d": "node index.js",
+    "t": "tsc index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yoonwoojae/TypeChain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yoonwoojae/TypeChain/issues"
+  },
+  "homepage": "https://github.com/Yoonwoojae/TypeChain#readme",
+  "dependencies": {
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {}
+}

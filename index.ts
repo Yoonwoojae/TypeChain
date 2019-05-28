@@ -1,1 +1,10 @@
-console.log("hello");
+export {};
+const name = "woojae",
+age = 34,
+gender = "male"
+
+const sayHi = (name, age, gender) => {
+    console.log(` Hello ${name}, you are ${age}, you are a ${gender}`);
+}
+
+sayHi(name, age, gender);
