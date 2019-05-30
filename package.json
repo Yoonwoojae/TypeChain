@@ -4,8 +4,7 @@
   "description": "TypeChain",
   "main": "index.js",
   "scripts": {
-    "d": "node index.js",
-    "t": "tsc index.ts"
+    "dev": "tsc-watch --onSuccess \" node dist/index.js\" "
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,8 @@
   },
   "homepage": "https://github.com/Yoonwoojae/TypeChain#readme",
   "dependencies": {
-    "typescript": "^3.4.5"
+    "tsc-watch": "^2.2.1",
+    "typescript": "^3.5.1"
   },
   "devDependencies": {}
 }
